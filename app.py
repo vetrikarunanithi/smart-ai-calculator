@@ -49,6 +49,7 @@ def calculate():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+
 # ---------- AI EXPLANATION (GEMINI) ----------
 @app.route('/explain', methods=['POST'])
 def explain():
@@ -63,6 +64,7 @@ def explain():
             f"Write it in a clear, structured, and easy-to-read markdown format with headings, bold text, and bullet points."
         )
 
+        # Use Gemini model
         model = genai.GenerativeModel("gemini-2.5-flash")
         response = model.generate_content(prompt)
 
@@ -77,5 +79,5 @@ def explain():
 def health():
     return jsonify({'status': 'ok'})
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
