@@ -99,8 +99,8 @@ calculator-project/
 - View your recent operations in the History section.
 
 ## Live Demo
-[Live](https://smart-ai-calculator-alpha.vercel.app/)
-[Backend]([https://smart-ai-calculator-alpha.vercel.app/](https://smart-ai-calculator-zpac.onrender.com/))
+- [Live](https://smart-ai-calculator-alpha.vercel.app/)
+- [Backend]([https://smart-ai-calculator-alpha.vercel.app/](https://smart-ai-calculator-zpac.onrender.com/))
 
 ---
 
@@ -109,6 +109,7 @@ calculator-project/
 GitHub: [vetrikarunanithi](https://github.com/vetrikarunanithi)  
 
 LinkedIn: [Vetriselvan Karunanithi](https://www.linkedin.com/in/vetriselvank)
+
 
 
 
