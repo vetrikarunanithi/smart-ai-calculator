@@ -135,6 +135,7 @@
 
     <script>
       // Get display and history elements
+      const API_BASE = "https://smart-ai-calculator-zpac.onrender.com";
       const display = document.getElementById("display");
       const historyContainer = document.getElementById("historyContainer");
       const historyItems = document.getElementById("historyItems");
@@ -204,7 +205,7 @@
         loadingText.style.display = "block"; // show loading text
 
         try {
-          const response = await fetch("http://127.0.0.1:5000/calculate", {
+          const response = await fetch(`${API_BASE}/calculate`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ expression: expression }),
@@ -271,7 +272,7 @@
         aiBox.textContent = "🤔 Thinking...";
 
         try {
-          const response = await fetch("http://127.0.0.1:5000/explain", {
+          const response = await fetch(`${API_BASE}/explain`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ expression: expression }),
