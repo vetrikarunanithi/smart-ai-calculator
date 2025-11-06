@@ -399,3 +399,26 @@ button:active {
 .ai-box::-webkit-scrollbar-thumb:hover {
   background: rgba(168, 85, 247, 0.6);
 }
+.ai-box h1, .ai-box h2, .ai-box h3 {
+  color: #c084fc;
+  margin-bottom: 8px;
+}
+
+.ai-box strong {
+  color: #f9fafb;
+}
+
+.ai-box ul {
+  padding-left: 18px;
+  margin: 6px 0;
+}
+
+.ai-box li {
+  margin-bottom: 4px;
+}
+
+.ai-box em {
+  color: #94a3b8;
+  font-style: italic;
+}
+
