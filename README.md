@@ -99,7 +99,7 @@ calculator-project/
 - View your recent operations in the History section.
 
 ## Live Demo
-updating soon
+[updating soon](https://smart-ai-calculator-alpha.vercel.app/)
 
 ---
 
@@ -108,3 +108,4 @@ updating soon
 GitHub: [vetrikarunanithi](https://github.com/vetrikarunanithi)  
 
 LinkedIn: [Vetriselvan Karunanithi](https://www.linkedin.com/in/vetriselvank)
+
